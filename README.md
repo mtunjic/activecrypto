@@ -33,16 +33,16 @@ class User < ActiveRecord::Base
   # basic encrypt (default AES-256-CBC)
   encrypt :column_name
   ...
- end
+end
 ```
 
 Or with with custom cipher like AES-256-CBC 
 
 ```ruby
- class User < ActiveRecord::Base
+class User < ActiveRecord::Base
   encrypt :column_name, { cipher: 'AES', block_mode: 'CBC', keylength: 256 }
   ...
- end
+end
 ```
 
 
