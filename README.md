@@ -1,7 +1,7 @@
 # Active Crypto
 
-Encryption and decryption of a model's properties (Rails 4.1+)
-* NOTE: key will be used from the secrets.yml file
+Encryption and decryption of a model's properties (Rails 4.1+, OpenSSL)
+NOTE: key will be used from the secrets.yml file
 
 ## Installation
 
@@ -27,9 +27,20 @@ require 'active_crypto'
 ```
 
 ```ruby
-#app/models/user.rb
+# app/models/user.rb
 class User < ActiveRecord::Base
+  # basic (default AES-256-CBC)
   encrypt :column_name
+  ...
+ end
+
+
+ class User < ActiveRecord::Base
+  # with custom cipher like "AES-256-CBC" 
+  # list supported ciphers irb> OpenSSL::Cipher.ciphers
+  encrypt :column_name, :blowfish
+  encrypt :column_name, { cipher: 'AES', block_mode: 'CBC', keylength: 256 }
+
   ...
  end
 ```
