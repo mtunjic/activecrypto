@@ -1,4 +1,4 @@
-require "activecrypto/version"
+require "active_crypto/version"
 
 require "active_crypto/version"
 require 'active_support/concern'

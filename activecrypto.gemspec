@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'activecrypto/version'
+require 'active_crypto/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "activecrypto"
-  spec.version       = Activecrypto::VERSION
+  spec.version       = ActiveCrypto::VERSION
   spec.authors       = ["Marko Tunjic"]
   spec.email         = ["marko.tunjic@live.com"]
 

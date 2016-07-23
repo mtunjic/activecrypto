@@ -1,3 +1,3 @@
-module Activecrypto
+module ActiveCrypto
   VERSION = "0.1.0"
 end
