@@ -1,4 +1,6 @@
-require "active_crypto/version"
+#-------------------------------
+# Copyright © 2016 Marko Tunjic.
+#-------------------------------
 
 require "active_crypto/version"
 require 'active_support/concern'

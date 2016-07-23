@@ -22,6 +22,12 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+# config/application.rb
+require 'active_crypto' 
+```
+
+```ruby
+#app/models/user.rb
 class User < ActiveRecord::Base
   encrypt :column_name
   ...

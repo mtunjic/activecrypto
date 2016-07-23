@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe Activecrypto do
+describe ActiveCrypto do
   it 'has a version number' do
-    expect(Activecrypto::VERSION).not_to be nil
+    expect(ActiveCrypto::VERSION).not_to be nil
   end
 
   it 'does something useful' do
