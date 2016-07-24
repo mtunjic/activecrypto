@@ -1,6 +1,7 @@
 # Active Crypto
 
 [![Build Status](https://travis-ci.org/mtunjic/activecrypto.svg?branch=master)](https://travis-ci.org/mtunjic/activecrypto)
+[![Gem Version](https://badge.fury.io/rb/activecrypto.svg)](https://badge.fury.io/rb/activecrypto)
 
 Encryption and decryption of a model's properties (Rails 4.1+, OpenSSL)
 
