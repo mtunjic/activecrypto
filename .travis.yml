@@ -3,3 +3,8 @@ language: ruby
 rvm:
   - 2.3.1
 before_install: gem install bundler -v 1.12.5
+script:
+  - bundle exec rake clean
+  - bundle exec rake build
+  - bundle exec rake spec
+
