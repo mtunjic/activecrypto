@@ -1,5 +1,7 @@
 # Active Crypto
 
+[![Build Status](https://travis-ci.org/mtunjic/activecrypto.svg?branch=master)](https://travis-ci.org/mtunjic/activecrypto)
+
 Encryption and decryption of a model's properties (Rails 4.1+, OpenSSL)
 
 NOTE: Default key will be used from the **secrets.yml** file
