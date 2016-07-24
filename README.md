@@ -45,7 +45,11 @@ class User < ActiveRecord::Base
 end
 ```
 
+If you need to choose an encryption algorithm. You can see the full list with:
 
+```ruby
+ruby -r openssl -e 'puts OpenSSL::Cipher.ciphers'
+```
 
 ## Contributing
 
