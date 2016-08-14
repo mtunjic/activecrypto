@@ -50,6 +50,11 @@ If you need to choose an encryption algorithm. You can see the full list with:
 ruby -r openssl -e 'puts OpenSSL::Cipher.ciphers'
 ```
 
+
+## People
+
+The big thanks goes to Ben Poweski & David Raphael
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/mtunjic/activecrypto.
@@ -58,4 +63,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/mtunji
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
