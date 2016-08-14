@@ -1,0 +1,8 @@
+Description:
+    Creates a Active Crypto initializer.
+
+Example:
+    rails generate crypto:install
+
+    This will create:
+        config/initializers/crypto.rb

@@ -19,16 +19,12 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+Next, you need to run the generator:
+    
+    $ rails g crypto:install
 
-    $ gem install activecrypto
 
 ## Usage
-
-```ruby
-# config/application.rb
-require 'active_crypto' 
-```
 
 ```ruby
 # app/models/user.rb
